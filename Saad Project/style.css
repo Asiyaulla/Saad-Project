@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  border:hsl(from color h s l);
+  background-color: aqua;
+}
+
+.nav-bar{
+  display:flex;
+  align-items:center;
+  gap: 50px;
+  justify-content: flex-end;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.nav-bar > ul > li {
+  display: inline;
+  padding: 10px;
+  margin: 20px 0 20px 0;
+}
